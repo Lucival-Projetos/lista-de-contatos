@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+  <h1>Agenda Telefônica</h1>
+  <button id="modoEscuro">Modo escuro</button>
+</header>
+
+<main>
+
+  <section class="box">
+    <h2>Novo Contato</h2>
+    <form id="form_Agenda">
+      <input type="text" id="nome" placeholder="Nome" />
+      <input type="tel" id="telefone" placeholder="Telefone" />
+      <input type="email" id="email" placeholder="Seu email" />
+      <select id="tipo">
+        <option value="">Tipo de contato</option>
+        <option>Pessoal</option>
+        <option>Trabalho</option>
+        <option>Emergência</option>
+      </select>
+      <input type="text" id="observacao" placeholder="Observação" />
+      <button type="submit">Adicionar</button>
+    </form>
+  </section>
+
+  <section class="box">
+    <h2>Filtrar por tipo</h2>
+    <select id="filtro">
+      <option value="">Todos</option>
+    </select>
+  </section>
+
+  <section class="box">
+    <h2>Agenda</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Telefone</th>
+          <th>Tipo</th>
+          <th>Obs.</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <tbody id="lista_Agenda"></tbody>
+    </table>
+    
+  </section>
+
+</main>
+
+<footer>
+  <p>Agenda Telefônica </p>
+</footer>
+<script src="script.js">
+
+
+</script>
+</body>
+</html>
