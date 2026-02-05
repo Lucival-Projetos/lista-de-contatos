@@ -25,7 +25,6 @@
         <option>Trabalho</option>
         <option>Emergência</option>
       </select>
-      <input type="text" id="observacao" placeholder="Observação" />
       <button type="submit">Adicionar</button>
     </form>
   </section>
@@ -37,6 +36,12 @@
     </select>
   </section>
 
+  <p>Total de contatos: <span id="totalContatos">0</span></p>
+
+  <p>Pessoal: <span id="totalPessoal">0</span></p>
+  <p>Trabalho: <span id="totalTrabalho">0</span></p>
+  <p>Família: <span id="totalFamilia">0</span></p>
+
   <section class="box">
     <h2>Agenda</h2>
     <table>
@@ -44,12 +49,14 @@
         <tr>
           <th>Nome</th>
           <th>Telefone</th>
+          <th>E-mail</th>
           <th>Tipo</th>
-          <th>Obs.</th>
-          <th>Ação</th>
+          <th>Ações</th>
         </tr>
       </thead>
-      <tbody id="lista_Agenda"></tbody>
+      <tbody id="tbody">
+
+      </tbody>
     </table>
     
   </section>
