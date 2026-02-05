@@ -127,5 +127,31 @@ button[id="modoEscuro"]{
 }
 
 body.dark-mode{
+    background-color: rgb(32, 32, 32);
+}
+section button{
+    margin-bottom: 3vh;
+}
+h1.dark-mode{
+    color: rgb(63, 63, 63);
+}
+main.dark-mode{
     background-color: rgb(63, 63, 63);
+}
+button[id="modoEscuro"].dark-mode{
+    color: rgb(32, 32, 32);
+}
+div#total.dark-mode, table tr th.dark-mode{
+    color: rgb(230, 230, 230);
+}
+div#total{
+    color : gray;
+    border: 1px solid rgb(153, 222, 222);
+    width: 30vh;
+    margin: auto;
+    border-radius: 3vh;
+}
+div#total p {
+    margin-bottom: 1vh;
+    margin-top: 1vh;
 }

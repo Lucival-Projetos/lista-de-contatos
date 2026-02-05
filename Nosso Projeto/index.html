@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
   <h1>Agenda Telefônica</h1>
-  <button id="modoEscuro">Modo escuro</button>
 </header>
 
 <main>
@@ -29,12 +29,13 @@
     </form>
   </section>
 
+  <div id="total">
   <p>Total de contatos: <span id="totalContatos">0</span></p>
-
+ 
   <p>Pessoal: <span id="totalPessoal">0</span></p>
   <p>Trabalho: <span id="totalTrabalho">0</span></p>
   <p>Família: <span id="totalFamilia">0</span></p>
-
+ </div>
   <section class="box">
     <h2>Agenda</h2>
     <table>
@@ -56,6 +57,8 @@
 
 </main>
 
+<button id="modoEscuro">⏾</button>
+
 <footer>
   <p>Agenda Telefônica </p>
 </footer>
@@ -63,6 +66,7 @@
 
 
 </script>
+
 </body>
 </html>
 

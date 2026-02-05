@@ -3,6 +3,19 @@ let listaContatos = [];
 const tbody = document.getElementById("tbody");
 const totalContatosSpan = document.getElementById("totalContatos");
 
+
+const darkMode = document.getElementById("modoEscuro");
+
+darkMode.addEventListener('click', function () {
+  document.body.classList.toggle('dark-mode');
+  document.querySelector('h1').classList.toggle('dark-mode');
+  document.querySelector('main').classList.toggle('dark-mode');
+  document.getElementById('modoEscuro').classList.toggle('dark-mode');
+  document.querySelector('div').classList.toggle('dark-mode');
+  document.querySelector('table thead tr').classList.toggle('dark-mode');
+});
+
+
 // carrega os dados na página com o local storage
 document.addEventListener("DOMContentLoaded", () => {
   const dadosSalvos = localStorage.getItem("listaContatos");
