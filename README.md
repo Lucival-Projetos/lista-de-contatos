@@ -1,10 +1,10 @@
 # *Lista_de_Contatos*
 
-# Descrição 📌 
+# Descrição
 Este projeto é uma lista de contatos desenvolvida em HTML, CSS e JavaScript.
 O objetivo é permitir que o usuário cadastre, visualize e gerencie seus contatos de forma prática e organizada.
 
-# Funcionalidades ⚙️
+# Funcionalidades
 - Permite cadastrar contatos usando um formulário (nome, telefone, e-mail e tipo)
 - Verifica se todos os campos foram preenchidos antes de adicionar o contato
 - Faz uma validação simples do telefone
@@ -17,14 +17,14 @@ O objetivo é permitir que o usuário cadastre, visualize e gerencie seus contat
 - Mostra a quantidade de contatos por tipo (Pessoal, Trabalho e Família)
 - Interface simples para facilitar o uso da agenda
 
-# Como rodar ▶️ 
+# Como rodar
 1. Baixe os arquivos do projeto.
 2. Certifique-se de que os arquivos HTML e JavaScript estão na mesma pasta.
 3. Abra o arquivo `index.html` e execute o arquivo usando uma extensão como live server ou simplesmente abra o HTML pelo editor. (do jeito que vc achar melhor Romerito).
 
-# Grupo 👥
-Edson Félix (Html e responsividade do Formulario)
-Alisson Bezerra (CSS / BackEnd da página)
-Manoel Victor (apoio nos testes e validação dos resultados)
-Lucival Alves (Java script)
-Gabriel de Medeiros Lima (Produtor do README / documentação do projeto)
+# Grupo
+- Edson Félix (Html e responsividade do Formulario)
+- Alisson Bezerra (CSS / BackEnd da página)
+- Manoel Victor (apoio nos testes e validação dos resultados)
+- Lucival Alves (Java script)
+- Gabriel de Medeiros Lima (Produtor do README / documentação do projeto)
