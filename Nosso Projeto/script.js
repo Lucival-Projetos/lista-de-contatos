@@ -12,7 +12,16 @@ darkMode.addEventListener('click', function () {
   document.querySelector('main').classList.toggle('dark-mode');
   document.getElementById('modoEscuro').classList.toggle('dark-mode');
   document.querySelector('div').classList.toggle('dark-mode');
-  document.querySelector('table thead tr').classList.toggle('dark-mode');
+  document.querySelectorAll('input').forEach((input) => {
+    input.classList.toggle('dark-mode');
+  });
+  document.querySelectorAll('select').forEach((select) => {
+    select.classList.toggle('dark-mode');
+  });
+  document.querySelectorAll('td').forEach((td) => {
+    td.classList.toggle('dark-mode');
+  });
+  
 });
 
 

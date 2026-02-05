@@ -53,6 +53,7 @@ form input, form button {
     margin-left: 25%;
     border-radius: 1vh;
     border-color: rgb(153, 222, 222);
+    margin-bottom: 2vh;
 }
 form input:hover, form select[id="tipo"]:hover, section select[id="filtro"]:hover{
     background-color: rgb(242, 242, 242);
@@ -63,6 +64,7 @@ section button{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
+    width: 51%;
     
 }
 section select[id="tipo"]{
@@ -70,7 +72,7 @@ section select[id="tipo"]{
     height: 7.3vh;
     margin-left: 25%;
     border-radius: 1vh;
-    margin-top: 3vh;
+    margin-top: 1vh;
     margin-bottom: 3vh;
     color: gray;
     border: 0.1vh inset rgb(153, 222, 222);
@@ -154,4 +156,25 @@ div#total{
 div#total p {
     margin-bottom: 1vh;
     margin-top: 1vh;
+}
+
+body.dark-mode th{
+    color: rgb(153, 222, 222) ;
+}
+ body.dark-mode footer{
+    color: rgb(230, 230, 230);
+ }
+input.dark-mode, select.dark-mode{
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+body.dark-mode input::placeholder, body.dark-mode select{
+    color: white;
+}
+tbody button{
+    margin-top: 2vh;
+    width: 13vh;
+}
+tbody td.dark-mode{
+    color: white;
 }
